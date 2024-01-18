@@ -1,0 +1,32 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the content */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the form */
+form {
+    margin-top: 20px;
+}
+
+/* Style the image in after.html */
+img {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Style the caption text */
+.text-white {
+    color: rgb(34, 72, 224);
+}
+
+/* Add more styles as needed */

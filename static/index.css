@@ -1,0 +1,99 @@
+.display-1{
+    font-size: 30px;
+}
+body{
+    background-color: rgb(236, 236, 236);
+}
+.topbar{
+    background-color:white;
+    padding: 10px;
+
+    font-family: Kdam Thmor Pro;
+    color:rgb(10, 214, 241);
+    box-shadow: 5px 5px 5px rgba(0,0,0,8.15) ;
+}
+.banner{
+    width: 100%;
+    margin-top: 0px;
+}
+.banimg{
+    margin-top: 0px;
+    border:none;
+    border-radius: 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 180px;
+    left: 16px;
+    color:aliceblue;
+    font-family: Kdam Thmor Pro;
+    font-size: 50px;
+    width:50%;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url("bg.png");
+   
+    /* Set a specific height */
+    min-height: 650px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content{
+    padding:10px
+  }
+  .hee{
+    font-family: Kdam Thmor Pro;
+    font-size: 60px;
+    padding:0px 100px;
+  }
+  .ee{
+    font-size: 20px;
+    font-family: Ubuntu;
+    padding:0px 100px;
+    margin-bottom:50px ;
+  }
+  .workplace{
+    background-color: rgb(251, 251, 251);
+    border: 1px;
+    border-color: black;
+  padding:100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  }
+  .footer{
+    background-color: rgb(112, 204, 232);
+    color:white;
+    font-family:Kdam Thmor Pro ;
+    padding:35px;
+    
+  }
+  .resd{
+    font-size: 40px;
+    font-family: Ubuntu;
+    padding:0px 100px;
+    margin-bottom:50px ;
+    margin-top: 20px;
+  }
+  .main{
+    background-color: rgb(239, 232, 232);
+    padding: 10px;
+    margin-left: 300px;
+    margin-right:300px ;
+    margin-bottom: 20px;
+  }
+  .heee{
+    font-family: Kdam Thmor Pro;
+    font-size: 60px;
+    padding:0px 100px;
+    margin-top: 20px;
+  }

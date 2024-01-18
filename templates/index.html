@@ -1,0 +1,47 @@
+<!-- index.html -->
+
+{%extends "base.html"%}
+{%block content%}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Maven+Pro:wght@500&family=Ubuntu:ital,wght@0,300;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+    <title>Vision Scripter</title>
+    <div class="topbar"><h1 class='display-1'>Vision Scripter - an Image Caption Generator</h1></div>
+  
+<div class="banner">
+   
+    <div class="bottom-left">Welcome to Automated Image Captioning</div>
+</div> 
+<div class="parallax"></div>
+<center><div class="content" style="height:1000px;background-color:rgb(255, 255, 255);">  
+    <p class="hee" >Scripter :</p>
+    <div class="workplace">
+        
+        <form action="{{url_for('after')}}" method='POST' enctype='multipart/form-data'>
+            <input type="file" name='file1'>
+            <input type="submit" name="btn" value='Predict Caption' class='btn btn-warning'> 
+        </form></div>
+    <p class="hee">How it Works</p>
+    <p class="ee">Simply upload an image, and our cutting-edge image captioning technology will go to work, providing you with descriptive and meaningful captions. Whether you're looking to enhance your photo collection, improve accessibility, or add context to your visuals, our platform is here to streamline the process.</p>
+    <p p class="hee">Why Choose Us:
+      <ul class="ee">
+        <li><strong>Precision:</strong> Our model is trained on vast datasets, ensuring accurate and contextually relevant captions.</li>
+        <li><strong>Versatility:</strong> From personal photos to professional images, our platform adapts to various use cases.</li>
+        <li><strong>User-Friendly:</strong> The intuitive interface makes it easy for anyone to generate captions with just a few clicks.</li>
+        <li><strong>Fast and Efficient:</strong> Receive captions promptly, allowing you to focus on what matters most.</li>
+      </ul>
+    </p></div> 
+<div class="footer">
+    <footor >
+        For Contact : visionscripter@google.in
+      </footor></div>
+</center>
+
+  </center>
+  <div></div>
+ 
+{%endblock%}

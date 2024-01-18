@@ -1,0 +1,31 @@
+{%extends "base.html"%}
+    
+{%block content%}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Maven+Pro:wght@500&family=Ubuntu:ital,wght@0,300;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+<center>
+
+	<h1 class='heee'>Predicted Caption </h1>
+
+	<br>
+	<br>
+	<div class="main">
+<img src="{{url_for('static', filename='file.jpg')}}" alt="image" height=340px>
+
+<br>
+
+<h2 class="resd">
+	{{data}}
+</h2>
+</div>
+</center>
+
+{%endblock%}
